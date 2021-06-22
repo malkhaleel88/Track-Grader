@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Track-Grader</title>
+</head>
+<body>
+    <header>
+       <h1>Grade Tracker</h1>
+    </header>
+    <main>
+        <div id="formContainer">
+            <form id="coursesForm">
+                <label for="nameField">Student Name</label><br>
+                <input type="text" id="nameField" value="Mohammad">
+                <br><br>
+                <label for="courseField">Course</label><br>
+                <select name="courseField" id="courseField">
+                    <option value="English">English</option>
+                    <option value="Math">Math</option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="Art">Art</option>
+                    <option value="Science">Science</option>
+                </select>
+                <br><br>
+                <input type="Submit" id="submitResults">
+            </form>
+        </div>
+        <div id="tableContainer">
+            <table id="shownResults">
+
+            </table>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
